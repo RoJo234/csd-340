@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: 'Raleway', Verdana, Arial, sans-serif;
+}
+
+header{
+    background-color: #070D0C;
+    color: #F2F2F2;
+}
+
+#navbar{
+    overflow: hidden;
+    background-color: #070D0C;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 48pt;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 36pt;
+}
+
+h3{
+    font-weight: 500;
+    font-size: 28pt;
+}
+
+#navbar a{
+    display: inline-block;
+    color: #8C8C8C;
+    padding-left: 111px;
+    padding-right: 111px;
+    padding: 24px 24px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+#navbar a:hover{
+    color: #F2F2F2;
+}
+
+#navbar a.active-page{
+    background: linear-gradient(0deg, #993300 0%, #070D0C 100%);
+    color: #F2F2F2;
+}
+
+.carousel {
+    overflow: hidden;
+    text-align: center;
+  }
+  
+.slides {
+    margin-top: 50px;
+    width: 100%;
+    display:flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+  
+.slides::-webkit-scrollbar {
+    display: none;
+  }
+  
+.slides-item {
+    align-items:center;
+    border-radius: 10px;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    margin-left: 25%;
+    height: 400px;
+    width: 50%;
+    scroll-snap-align: center;
+    position: relative;    
+  }
+  
+.slides-item img{
+    position: relative;
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+.text-block{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.50);
+    color: #F2F2F2;
+    border-radius: 10px;
+    width: 100%;
+  }
+
+.slide-3{
+    margin-right: 25%;
+  }
+  
+.carousel__nav {
+    padding: 1.25rem .5rem;
+  }
+  
+.slider-nav {
+    align-items: center;
+    background-color: #dddddd00;
+    border: 1px solid;
+    border-color: #F2F2F2;
+    border-radius: 50%;
+    display: inline-flex;
+    height: .1rem;
+    padding: .5rem;
+    position: relative;
+    width: .1rem;
+  }
+  
+.slider-nav:hover,
+.slider-nav:active {
+    background-color: #F2F2F2;
+    color: #F2F2F2;
+  }
+  
+body{
+    text-align: center;
+    background: linear-gradient(0deg, #3F4040 0%, #F2F2F2 100%);
+    background-attachment: fixed;
+}
+
+#container{
+    padding: 50px;
+}
+#container2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .4);
+    transition: 0.3s;
+    width: 25%;
+    margin-left: 35%;
+    padding: 50px 50px;
+    background: linear-gradient(180deg, #993300 0%, #070D0C 100%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.button{
+    color: #F2F2F2;
+    width: 140px;
+    height: 70px;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #070D0C;
+    margin: 50px 5px;
+    display: inline-block;
+    border-radius: 10px;
+}
+.button:hover{
+    background-color: #993300;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+.title-picture{
+    margin-top: 20px;
+}
+#container p.about-text{
+    color: #F2F2F2;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+    background-color: #3F4040;
+    padding: 2%;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: #993300;
+}
+.heading{
+    padding-top: 50px;
+}
+.image-gallery{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: auto auto auto;   
+}
+
+.hobby2{
+    border-left: 6px solid #993300;
+    border-right: 6px solid #993300;
+    height:auto;
+    margin-bottom: 10%;
+}
+.hobby-text{
+    color: #F2F2F2;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    background-color: #3F4040;
+    padding: 2%;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: #993300;
+}
+footer{
+    background-color: #070D0C;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 5px;
+}
+footer a{
+    text-decoration: none;
+    color: #F2F2F2;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+footer a:hover{
+    text-decoration: underline;
+    color:#993300;
+}
